@@ -12,4 +12,7 @@
 #     shield: reviung41
 #
 ---
-board: [ "rable_v2" ]
+# board: [ "rable_v2" ]
+include:
+  - board: rable_v2_hotswap
+    snippet: studio-rpc-usb-uart
